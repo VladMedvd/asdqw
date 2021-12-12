@@ -1,0 +1,46 @@
+.collapse {
+    background: antiquewhite;
+}
+
+.custom-heading {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.custom-img {
+    height: 100%;
+    width: 100%;
+}
+
+.custom-text {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container-recipe {
+    text-align: center;
+}
+
+.custom-recipe-heading {
+    font-weight: bold;
+}
+
+.custom-img-recipe {
+    height: 400px;
+    max-width: 600px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.recipe-text {
+    text-align: left;
+}
+
+@media (min-width: 250px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
